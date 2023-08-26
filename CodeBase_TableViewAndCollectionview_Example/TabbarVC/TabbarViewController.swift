@@ -50,7 +50,6 @@ class TabbarViewController: UITabBarController {
         UITabBar.appearance().barTintColor = UIColor.blue
         // 첫 화면에 띄우기
         setViewControllers([mainVCHome, listVC, layoutVC], animated: false)
-        
     }
 }
 
