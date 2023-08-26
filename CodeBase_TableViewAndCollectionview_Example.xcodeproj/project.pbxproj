@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26E8A72B2A9A347D008B7733 /* ListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E8A72A2A9A347D008B7733 /* ListCollectionViewCell.swift */; };
 		26EAD29D2A98822B00D44890 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26EAD29C2A98822B00D44890 /* AppDelegate.swift */; };
 		26EAD29F2A98822B00D44890 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26EAD29E2A98822B00D44890 /* SceneDelegate.swift */; };
 		26EAD2A12A98822B00D44890 /* TabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26EAD2A02A98822B00D44890 /* TabbarViewController.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		26E8A72A2A9A347D008B7733 /* ListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCollectionViewCell.swift; sourceTree = "<group>"; };
 		26EAD2992A98822B00D44890 /* CodeBase_TableViewAndCollectionview_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeBase_TableViewAndCollectionview_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26EAD29C2A98822B00D44890 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		26EAD29E2A98822B00D44890 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				26EAD2B22A9883FB00D44890 /* ListCollectionViewController.swift */,
+				26E8A72A2A9A347D008B7733 /* ListCollectionViewCell.swift */,
 			);
 			path = ListVC;
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 			files = (
 				26EAD2B12A9883EA00D44890 /* MainTableViewController.swift in Sources */,
 				26EAD2A12A98822B00D44890 /* TabbarViewController.swift in Sources */,
+				26E8A72B2A9A347D008B7733 /* ListCollectionViewCell.swift in Sources */,
 				26EAD2B32A9883FB00D44890 /* ListCollectionViewController.swift in Sources */,
 				26EAD2BB2A9893B400D44890 /* MainTableViewCell.swift in Sources */,
 				26EAD29D2A98822B00D44890 /* AppDelegate.swift in Sources */,
