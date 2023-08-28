@@ -25,14 +25,14 @@ class MainTableViewController: UIViewController {
     }()
     
     let books: [Book] = [
-        Book(title: "일번", middle: "1231d" ,description: "132123123"),
+        Book(title: "일번", middle: "1231dsdsdsd" ,description: "132123123"),
         Book(title: "이번", middle: "eqweqwejijifdf", description: "ㅃㅈㄷㅂㅈㄷㅂㅈㄷ"),
-        Book(title: "삼번", middle: "미들입니다.미들입니다.미들입니다.미들입니다.미들입니다.미들입니다.미들입니다.미들입니다.미들입니다.미들입니다.", description: "마지막입니다........"),
+        Book(title: "삼번", middle: "미들입니다.미들입니다.미들입니다.미들입니다.미들입니다.미들입니다.미들입니다.미들입니다.미들입니다.미들입니다.", description: "마지막입니다......dsdssdsdsdss.."),
         Book(title: "사번", middle: "123",description: "ㅋㅌㅊㅋㅌㅊㅋㅌㅊ"),
         Book(title: "오번", middle: "asdasdas",description: "쇼ㅕ쇼ㅕ"),
         Book(title: "육번", middle: "ㅜ123123123312323ㅜ123123123312",description: "퓨ㅜ퓨ㅜ퓨ㅜ3"),Book(title: "사번", middle: "123",description: "ㅋㅌㅊㅋㅌㅊㅋㅌㅊ"),
         Book(title: "오번", middle: "asdasdas",description: "쇼ㅕ쇼ㅕ"),
-        Book(title: "육번", middle: "ㅜ123123123312323ㅜ123123123312",description: "퓨ㅜ퓨ㅜ퓨ㅜ3")
+        Book(title: "육번", middle: "ㅜ123123123312323ㅜ123123123312",description: "퓨ㅜ퓨ㅜ퓨ㅜ3퓨ㅜ퓨ㅜ퓨ㅜ퓨ㅜ퓨ㅜ퓨ㅜ")
     ]
 
     override func viewDidLoad() {

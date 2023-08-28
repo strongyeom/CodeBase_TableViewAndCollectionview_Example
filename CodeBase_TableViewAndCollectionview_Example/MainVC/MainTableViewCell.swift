@@ -38,11 +38,14 @@ class MainTableViewCell: UITableViewCell {
         
         middleLabel.backgroundColor = .blue
         middleLabel.numberOfLines = 0
+        
+        // huggPriority 를 낮춰주자...
+        self.middleLabel.setContentHuggingPriority(.defaultLow, for: .vertical)
+        
         middleLabel.snp.makeConstraints { make in
             make.centerY.equalToSuperview()
             make.leading.equalTo(titlelabel.snp.trailing).offset(10)
-            make.verticalEdges.lessThanOrEqualTo(20)
-            
+            make.width.equalTo(contentView.frame.width/2).priority(240)
         }
         
         

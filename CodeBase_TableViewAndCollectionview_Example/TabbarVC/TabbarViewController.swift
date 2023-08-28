@@ -11,7 +11,6 @@ class TabbarViewController: UITabBarController {
     
     // 두번째 - Tabbar 생성
     // 다른 클래스에서 접근 할 수도 있기 때문에 private를 사용해서 제한하기
-    
     private let mainVC = {
         var vc = UIViewController()
         vc = MainTableViewController()
@@ -45,21 +44,13 @@ class TabbarViewController: UITabBarController {
         super.viewDidLoad()
         
         let mainVC = MainTableViewController()
-
-
         mainVC.tabBarItem.image = UIImage(systemName: "flame")
-        mainVC.title = "메인"
-        title = "MainVC"
-        let mainVCHome = UINavigationController(rootViewController: mainVC)
-//        // navigationController의 root view 설정
-    
-
-        // Tabbar color 설정
-//        self.tabBar.tintColor = UIColor.white // tab bar icon tint color
-//        self.tabBar.isTranslucent = false
-//        UITabBar.appearance().barTintColor = UIColor.blue
+        mainVC.tabBarItem.title = "메인"
+   
         // 첫 화면에 띄우기
-        setViewControllers([mainVCHome, listVC, layoutVC], animated: false)
+        setViewControllers([mainVC, listVC, layoutVC], animated: false)
     }
 }
 
+// navigationController의 root view 설정
+// let mainVCHome = UINavigationController(rootViewController: mainVC)

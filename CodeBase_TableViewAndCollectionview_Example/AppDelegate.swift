@@ -14,6 +14,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        // 왜 탭바가 두번째 항목 (list)부터 적용이 될까? ✅
+        //UITabBar.appearance().backgroundColor = .yellow
+        
+        // UITabBar에서 배경색은 barTintColor임
+        // UITabBar.appearance().barTintColor = .orange
+        // UITabBar 항목에 대한 컬러 설정은 tintColor
+         // UITabBar.appearance().tintColor = .green
         return true
     }
 
